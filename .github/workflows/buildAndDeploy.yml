@@ -13,8 +13,8 @@ jobs:
           npm install
           npm run build:prod
 
-#       - name: Deploy 🚀
-#         uses: JamesIves/github-pages-deploy-action@v4.2.5
-#         with:
-#           branch: gh-pages # The branch the action should deploy to.
-#           folder: build # The folder the action should deploy.
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: build # The folder the action should deploy.
